@@ -28,7 +28,7 @@ void activeCb()
 void feedbackCb(const FibonacciFeedbackConstPtr& feedback)
 {
   ROS_INFO("Got Feedback of length %f",feedback->feed_x);
-  difference = feedback->feed_x ;
+ float difference = feedback->feed_x ;
 }
 
 int main (int argc, char **argv)
