@@ -1,0 +1,8 @@
+#goal definition
+float64 initial_x
+---
+#result definition
+float64 result_x
+---
+#feedback
+float64 feed_x
