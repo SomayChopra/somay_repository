@@ -40,7 +40,7 @@ public:
     //
 
    
-     float x,dash,value,f ;
+     float x,dash,difference,f ;
 
      x = goal->initial_x;
      dash = 3*x*x - 5 ;
